@@ -23,11 +23,6 @@ const UsersPage = () => {
         </div>
     );
 
-    return (
-        <div>
-            
-        </div>
-    );
 };
 
 export default UsersPage;

@@ -7,13 +7,13 @@ import PostsPage from "./pages/PostsPage";
 
 function App() {
   return (
-      <Router>
-          <Navigation/>
+      <>
+          <Navigation />
           <Routes>
-              <Route path="/" element={<UsersPage/>}/>
-              <Route path="/pages" element={<PostsPage/>}/>
+              <Route path="/" element={<UsersPage />} />
+              <Route path="/pages" element={<PostsPage />} />
           </Routes>
-      </Router>
+      </>
   );
 }
 
