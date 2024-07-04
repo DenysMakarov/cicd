@@ -6,26 +6,26 @@ import App from './App';
 import { store } from './store';
 
 test('renders navigation links', async () => {
-    render(
-        <Provider store={store}>
-            <BrowserRouter>
-                <App />
-            </BrowserRouter>
-        </Provider>
-    );
+  render(
+    <Provider store={store}>
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+    </Provider>
+  );
 
-    await screen.findByText('Users');
-    await screen.findByText('Posts');
+  await screen.findByText('Users');
+  await screen.findByText('Posts');
 });
 
 test('renders users page', async () => {
-    render(
-        <Provider store={store}>
-            <BrowserRouter>
-                <App />
-            </BrowserRouter>
-        </Provider>
-    );
+  render(
+    <Provider store={store}>
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+    </Provider>
+  );
 
-    await screen.findByText('Loading...');
+  await screen.findByText('Loading...');
 });
