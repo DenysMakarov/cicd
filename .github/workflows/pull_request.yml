@@ -1,8 +1,9 @@
 name: Print Pull Request Context
 on: workflow_dispatch
+
 jobs:
-    print-pr-context:
-        runs-on: ubuntu-latest
-        steps:
-        - name: Print PR Context
-          run: echo 'The PR number is ${{ github.event.pull_request.number }}'
+  print-pr-context:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print PR Context
+        run: echo 'The PR number is ${{ github }}'
