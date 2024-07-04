@@ -6,4 +6,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print PR Context
-        run: echo 'The PR number is ${{ github }}'
+        run: echo 'The PR number is ${{ toJSON(github) }}'
