@@ -10,6 +10,7 @@ const PostsPage = () => {
 
   return (
     <div>
+      <h1 className="border-l-2">Posts</h1>
       {data &&
         data.map((post: IPost) => (
           <div key={post.id}>
