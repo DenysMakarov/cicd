@@ -10,3 +10,12 @@ jobs:
     steps:
       - name: Print PR Context
         run: echo 'The PR number is ${{ toJSON(github.event) }}'
+
+
+
+
+
+
+
+# Link where we can see all triggers such as opened, edited, reopened, closed, etc.
+# https://docs:github:com/en/actions/using-workflows/events-that-trigger-workflows:
