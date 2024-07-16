@@ -14,7 +14,7 @@ test('renders navigation links', async () => {
     </Provider>
   );
 
-  await screen.findByText('Users');
+  await screen.findByText('User');
   await screen.findByText('Posts');
 });
 
